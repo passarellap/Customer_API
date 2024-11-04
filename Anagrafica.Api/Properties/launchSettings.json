@@ -1,0 +1,81 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:58379/",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "IDENTITYSERVER_ENABLED": "true",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "AnagraficaAPI Development Arianna": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020",
+        "ASPNETCORE_ENVIRONMENT": "Development-Arianna"
+      },
+      "applicationUrl": "http://127.0.0.1:6002"
+    },
+    "AnagraficaAPI Development Massimo": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020",
+        "ASPNETCORE_ENVIRONMENT": "Development-Massimo"
+      },
+      "applicationUrl": "http://127.0.0.1:6002"
+    },
+    "AnagraficaAPI DB Staging From Localhost": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020",
+        "ASPNETCORE_ENVIRONMENT": "Staging-FromLocalhost"
+      },
+      "applicationUrl": "http://127.0.0.1:6002"
+    },
+    "AnagraficaAPI Staging": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020",
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      },
+      "applicationUrl": "http://localhost:6002"
+    },
+    "AnagraficaAPI Production": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020",
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      },
+      "applicationUrl": "http://localhost:6002"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        "OCTOPUS_RELEASEDATE": "28/12/2020"
+      },
+      "publishAllPorts": true
+    }
+  }
+}

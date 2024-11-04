@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="AuthorizationManager" Version="1.142.152" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+	  <PackageReference Include="ServiceUtilities" Version="1.83.83" />
+  </ItemGroup>
+
+</Project>
